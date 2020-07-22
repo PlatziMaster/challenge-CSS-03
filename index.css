@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: grid;
+  place-content: center;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #6200EE;
+}
+.brand {
+  display: flex;
+  align-items: center;
+}
+.menu span {
+  margin-left: 10px;
+}
+.brand span {
+  margin-right: 30px;
+}
