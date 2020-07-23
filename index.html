@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Flexbox</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-size: 25px;
+            background:#e1e1e1;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+        }
+        .header_0{
+            height: 50px;
+            display: flex;
+            align-items: center;
+            background: #3700B3; 
+            justify-content:flex-end;
+            padding-right: 10px;
+            list-style: none;
+        }
+        .header{
+            background: #6200EE;
+            color: white;
+            height: 80px;
+        }
+        .header_bloque{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        
+        }
+        .header_title{
+            margin-right: 800px;
+        }
+        .header_icon{
+            list-style: none;
+        }
+        .description{
+            color: black;
+            text-align: center;
+            margin-top: 250px;
+        }
+    </style>
+</head>
+<body>
+    <section class="header_0">
+        <img src="https://image.flaticon.com/icons/svg/3124/3124850.svg" width="40px" height="30px">
+        <img src="https://image.flaticon.com/icons/svg/818/818275.svg" width="40px" height="30px">
+        <img src="https://image.flaticon.com/icons/svg/838/838503.svg" width="40px" height="30px">
+    </section>
+
+    <header class="header">
+
+        <div class="header_bloque">
+            <div class="header_menu">
+                <img src="https://image.flaticon.com/icons/svg/1828/1828859.svg" width="90px" height="40px">
+            </div>
+            <div class="header_title">
+                <p>Page Title</p>
+            </div>
+
+            <div class="header_icon">
+                <lu>
+                    <li>
+                        <a href="#"><img src="https://image.flaticon.com/icons/svg/1077/1077035.svg" width="60px" height="30px">
+                        </a>
+                        <a href="#"> <img src="https://image.flaticon.com/icons/svg/622/622669.svg" width="60px" height="30px">
+                        </a>
+                        <a href="#"><img src="https://image.flaticon.com/icons/svg/130/130921.svg" width="60px" height="30px">
+                        </a>
+                    </li>
+                </lu>
+            </div>
+        </div>
+        <p class="description">
+            Flexbox: App bar top / jshc27
+        </p>
+        
+    </header>
+</body>
+</html>
