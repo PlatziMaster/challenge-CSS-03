@@ -1,0 +1,25 @@
+body{
+  margin: 0;
+  box-sizing: border-box;
+}
+* img{
+  padding: 0px 10px;
+  width: 25px;
+}
+.nav{
+  background-color: #503ed6;
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+.nav__left{
+  display: flex;
+  align-items: center;
+}
+.nav__right{
+  display: flex;
+}
+h3{
+  color: white;
+}
