@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+}
+
+.barra {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #4b00d6;
+    height: 20px;
+}
+.barra img {
+    height: 10px;
+    margin: 5px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #6200ee;
+    height: 100px;
+}
+.nav p {
+    font-size: 30px;
+}
+.navegador-L {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 300px;
+    color: white;
+}   
+.navegador-R {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 300px;
+}

@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --colorBgTop: #4b00d6;
+    --colorBgNav: #6200ee;
+}
+
+.barra {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #4b00d6;
+    height: 20px;
+}
+.barra img {
+    height: 10px;
+    margin: 5px;
+}
+
+/* ----------------------- */
+
+.navContainer {
+    display: grid;
+    grid-template-columns: repeat(60, 1fr);
+    background: var(--colorBgNav) ;
+    color: white;
+    align-items: center;
+    height: 60px;
+}
+.hamb {
+    grid-column: 4 / span 1;
+}
+.title {
+    grid-column: 6 / span 30;
+}
+
+.heart{
+    grid-column: 53 / span 1 ;
+}
+
+.lupa{
+    grid-column: 56 / span 1 ;
+}
+
+.kebab{
+    grid-column: 59 / span 1 ;
+}
