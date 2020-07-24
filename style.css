@@ -1,0 +1,92 @@
+/* Challenge CSS 03 */
+
+*{
+  margin: 0;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav{
+  width: 100%;
+  min-height: 87px;
+  -webkit-box-shadow: 0px 3px 12px -2px rgba(0,0,0,0.71);
+  -moz-box-shadow: 0px 3px 12px -2px rgba(0,0,0,0.71);
+  box-shadow: 0px 3px 12px -2px rgba(0,0,0,0.71);  
+}
+.navbartop{
+  width: 100%;
+  background-color:#4c00d5;
+  height: 31px;
+}
+
+.navbartop__icons-list{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  margin-right: 20px;
+}
+.navbartop__icons-list i{
+  color:#9949fc;
+}
+
+.navbar{
+  background-color: #6200ee ;
+  height: 79px;
+  display: flex;
+  align-items: center;
+}
+
+.left-menu{
+  
+  width: 50%;
+}
+.left-menu__list{
+  
+  display: flex;
+  justify-content: flex-start;
+}
+.left-menu__list i{
+  font-size: 30px;
+  color:white;
+}
+.left-menu__list h1{
+  font-size: 20px;
+  color:white;
+}
+
+
+.right-menu{
+  width: 50%;
+}
+.right-menu__list{
+  display: flex;
+  justify-content: space-around;
+}
+.right-menu__list i{
+  font-size: 27px;
+  color:white;
+}
+
+
+/* Utilities */
+
+.full-width{
+  width: 100%;
+}
+.ml-1{
+  margin-left: 10px;
+}
+.ml-2{
+  margin-left: 20px;
+}
+.ml-3{
+  margin-left: 30px;
+}
+
+.remove-style-list{
+  list-style: none;
+}
+
