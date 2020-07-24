@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>reto 3</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        
+        <header class="header">
+            <nav class="header__nav">
+                <div class="header__nav--left">
+                    <div class="ico-burguer">
+                        <a onclick="toogleMenu()" href="#"><img src="http://monsterbranding.com.mx/images/menu.png" alt="menu"> </a>
+                        <ul id="menuEscondido">
+                            <li><a href="#">inicio</a></li>
+                            <li><a href="#">about</a></li>
+                            <li><a href="#">contact</a></li>     
+                        </ul>
+                    </div>
+                    <h2>Page Title</h2>
+                </div>
+                <div class="header__nav--right">
+                    <ul>
+                        <li><a href="#"><img src="http://monsterbranding.com.mx/images/heart-outline.png" alt="heart"></a></li>
+                        <li><a onclick="searchForm()" href="#"><img src="http://monsterbranding.com.mx/images/search.png" alt="search"></a>
+                            
+                        </li>
+                        <li><a href="#"><img src="http://monsterbranding.com.mx/images/menu-vertical.png" alt="secondary-menu"></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="search" id="search">
+                <input type="search" placeholder="buscar..">
+                
+        </div>
+        <script src="menu.js"></script>
+    </body>
+</html>
