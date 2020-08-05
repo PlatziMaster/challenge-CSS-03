@@ -14,10 +14,10 @@ La idea de este reto es que repliques el siguiente componente usando Flexbox. En
 
 Te dejo la siguiente documentación útil para resolver el reto:
 
-* [Flexbox Froggy | Juego](http://flexboxfroggy.com/#es)
-* [A guide to Flexbox | CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-* [Flexbox in CSS | CSS Reference](https://cssreference.io/flexbox/)
-* [Flexbox help](https://flexbox.help/)
+- [Flexbox Froggy | Juego](http://flexboxfroggy.com/#es)
+- [A guide to Flexbox | CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [Flexbox in CSS | CSS Reference](https://cssreference.io/flexbox/)
+- [Flexbox help](https://flexbox.help/)
 
 ## 🐸 Pasos a seguir:
 

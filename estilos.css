@@ -1,0 +1,95 @@
+:root {
+  --blue: #6200ee;
+  --grey: #e5e5e5;
+  --white: #ffffff;
+}
+
+/* 6368530014168917  */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  background-color: var(--grey);
+  height: 100vh;
+}
+
+main .wrapper {
+  align-items: center;
+  background-color: var(--blue);
+  box-shadow: 0 0 14px 0 #b4b0bf;
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+}
+
+main .wrapper .menu {
+  max-width: 20%;
+}
+
+main .wrapper .menu:hover {
+  color: black;
+  cursor: pointer;
+}
+
+main .wrapper .menu span {
+  background-color: var(--white);
+  display: block;
+  height: 2px;
+  margin-bottom: 3px;
+  width: 20px;
+}
+
+main .wrapper .menu span:last-child {
+  margin-bottom: 0;
+}
+
+main .wrapper .title {
+  color: var(--white);
+  font-size: 12px;
+  line-height: 0px;
+  margin-right: 6px;
+  text-align: left;
+  max-width: 40%;
+}
+
+main .wrapper .icon {
+  color: var(--white);
+  margin-left: ;
+  text-align: right;
+  width: 30%;
+}
+
+main .wrapper .icon i {
+  margin-left: 15px;
+}
+
+main .wrapper .icon i:hover {
+  cursor: pointer;
+}
+
+section {
+  background-color: var(--white);
+  height: 300px;
+}
+
+/* Seccion desktop */
+@media only screen and (min-width: 760px) {
+  main .wrapper {
+    margin: 0 auto;
+    position: relative;
+    top: 10px;
+    width: 375px;
+  }
+
+  section {
+    margin: 0 auto;
+    width: 375px;
+  }
+}
