@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+}
+body{
+  color: #3d3e4a;
+}
+nav {
+  background: #E0E8f9;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  width: 100%;
+}
+.menuRight {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+.menuLeft {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+img {
+  margin-right: 30px;
+}
