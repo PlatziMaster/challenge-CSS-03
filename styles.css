@@ -23,22 +23,12 @@ body {
 }
 
 .container i {
-    font-size: 32px;
+    font-size: 28px;
 }
 
 .container__left {
     display: flex;
     align-items: center;
-}
-
-.container__right ul {
-    display: flex;
-    align-items: center;
-}
-
-.container__right li {
-    list-style-type: none;
-    margin-right: 35px;
 }
 
 .container__left  h1 {
@@ -47,4 +37,18 @@ body {
 
 .container__left span {
     margin-left: 20px;
+}
+
+.container__right {
+    display: flex;
+}
+
+.container__right ul {
+    display: flex;
+}
+
+.container__right li {
+    list-style-type: none;
+    margin-right: 35px;
+    align-self: center;
 }
