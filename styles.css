@@ -26,28 +26,28 @@ body {
     font-size: 28px;
 }
 
-.container__left {
+.container-left {
     display: flex;
     align-items: center;
 }
 
-.container__left  h1 {
+.container-left  h1 {
     margin-left: 35px;
 }
 
-.container__left span {
+.container-left span {
     margin-left: 20px;
 }
 
-.container__right {
+.container-right {
     display: flex;
 }
 
-.container__right ul {
+.container-right__icons {
     display: flex;
 }
 
-.container__right li {
+.container-right__icons li {
     list-style-type: none;
     margin-right: 35px;
     align-self: center;
