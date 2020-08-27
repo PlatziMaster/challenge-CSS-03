@@ -1,0 +1,155 @@
+/*Resetear estilos del navegador*/
+/*Los contenedore div por defecto tienen display block de forma vertical*/
+/*1rem = 10px 10rem = 100px*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=Permanent+Marker&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* list-style-type: none; */
+}
+/*Uso de rem como si fueran pixeles*/
+html {
+  font-size: 62.5%;
+  background-color: #e5e5e5;
+}
+/*1.6rem = 16px*/
+body {
+  font-size: 1.6rem;
+}
+.container {
+  width: 50rem;
+  align-items: center;
+  /*centrar container*/
+  margin: 0 auto;
+  box-shadow: 2px 2px 10px 0px rgba(153, 153, 153, 1);
+}
+/*.3rem = 3px*/
+.header {
+  display: flex;
+  /* justify-content: flex-end; */
+  height: 3.5rem;
+  background-color: #4c00d5;
+  /* align-items: center;
+  vertical-align: middle; */
+  /* Centra verticalmente
+  align-items: center; */
+}
+
+.social__icon {
+  display: flex;
+  flex-grow: 1;
+  margin-top: 0.8rem;
+  text-align: center;
+  justify-content: flex-end;
+  margin-right: 0.5rem;
+  list-style: none;
+}
+
+.box__social-icon {
+  margin-right: 0.8rem;
+}
+
+.box__social-icon img {
+  height: 15px;
+}
+
+.box__social-icon li {
+  list-style: none;
+  margin-top: 6px;
+}
+
+.menu__btn:before,
+.menu__btn:after {
+  background-color: #fff;
+  content: "";
+  display: block;
+  height: 3px;
+  transition: all 200ms ease-in-out;
+}
+.menu__btn:before {
+  box-shadow: 0 10px 0 #fff;
+  margin-bottom: 16px;
+}
+.menu__btn:hover:before {
+  box-shadow: 0 0 0 #fff;
+  transform: translateY(10px) rotate(45deg);
+}
+.menu__btn:hover:after {
+  transform: translateY(-10px) rotate(-45deg);
+}
+
+.block__element {
+  background-color: #6200ee;
+  /* height: 8rem; */
+}
+
+.nav {
+  border: 0.3rem solid black;
+  display: flex;
+  justify-content: flex-end;
+  height: 3.5rem;
+  /*Ningun estilo bullets*/
+  list-style: none;
+}
+
+.container__nav {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  height: 8rem;
+  /* align-items: center; */
+}
+
+.box__hamburger {
+  /* background-color: #6200ee; */
+  margin-top: 2%;
+  text-align: center;
+}
+
+.menu__btn {
+  display: block;
+  margin-left: 3rem;
+  margin-top: 1.8rem;
+  width: 2.5rem;
+}
+
+.title__nav {
+  /* background-color: #6200ee; */
+  flex-grow: 4;
+  margin-top: 4%;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.box__heart {
+  /* background-color: #6200ee; */
+  flex-grow: 1;
+  margin-top: 5%;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.box__search {
+  /* background-color: #6200ee; */
+  flex-grow: 1;
+  margin-top: 5%;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.box__ellipsis {
+  /* background-color: #6200ee; */
+  flex-grow: 1;
+  margin-top: 5%;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.box__white {
+  background-color: white;
+  height: 20rem;
+}
