@@ -1,0 +1,127 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+}
+
+.top {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    width: 100%;
+    height: 15px;
+    background-color: #4C02D4;
+}
+
+.top-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-image {
+    width: 10px;
+    height: 10px;
+    margin-right: 7px;
+    background-color: #9D4CFF;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    margin-right: 7px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid #9D4CFF;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+.main-menu {
+    width: inherit;
+    height: inherit;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #6202EE;
+}
+
+.menu-left {
+    width: 200px;
+    height: auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-right {
+    width: 200px;
+    height: auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    cursor: pointer;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.image-burger {
+    background-image: url(./images/burger-menu.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    size: contain;
+    width: 30px;
+    height: 30px;
+}
+
+.image-likes {
+    background-image: url(./images/likes.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    size: contain;
+    width: 30px;
+    height: 30px;
+}
+
+.image-search {
+    background-image: url(./images/search.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    size: contain;
+    width: 30px;
+    height: 30px;
+}
+
+.image-options {
+    background-image: url(./images/options.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    size: contain;
+    width: 30px;
+    height: 30px;
+}
