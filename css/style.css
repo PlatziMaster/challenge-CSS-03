@@ -7,7 +7,6 @@
 }
 
 body {
-  border: 2px solid red;
   box-sizing: border-box;
   width: 100vw;
   height: 100vh;
@@ -18,19 +17,16 @@ body {
 }
 
 .shelf {
-  border: 1px solid orange;
   width: 360px;
   height: auto;
 }
 
 .title_bar {
-  /* border: 2px solid chartreuse; */
   width: 100%;
   height: 32px;
 }
 
 .title_bar__icons {
-  /* border: 2px solid seagreen; */
   width: auto;
   height: 100%; 
   background-color: var(--dark_purple);
@@ -40,7 +36,6 @@ body {
 }
 
 .title_bar__icon {
-  /* border: 2px solid orchid; */
   width: 16px;
   height: 16px;
   background-color: var(--ligth_purple);
@@ -61,7 +56,8 @@ body {
 }
 
 .nav_bar {
-  border: 1px solid red;
+  background-color: var(--purple);
+  color: white;
   width: auto;
   height: auto;
   padding-left: 16px;
@@ -73,47 +69,47 @@ body {
 }
 
 .nav_bar__left {
-  border: 1px solid green;
   display: flex;
   align-items: center;
 }
 
 .hamburger_icon {
-  border: 1px solid blue;
   width: 24px;
   height: 24px;
+  background-image: url(../assets/menu.png);
+  background-size: 100%;
 }
 
 .nav_bar__title {
-  border: 1px solid magenta;
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 32px;
 }
 
 .nav_bar__right {
-  border: 1px solid darkorange;
   display: flex;
   align-items: center;
 }
 
 .heart_icon {
-  border: 1px solid firebrick;
   width: 24px;
   height: 24px;
   margin-right: 24px;
+  background-image: url(../assets/heart.png);
+  background-size: 100%;
 }
 
 .search_icon {
-  border: 1px solid firebrick;
   width: 24px;
   height: 24px;
   margin-right: 24px;
+  background-image: url(../assets/search.png);
+  background-size: 100%;
 }
 
 .vertical_menu_icon {
-  border: 1px solid firebrick;
   width: 24px;
   height: 24px;
+  background-image: url(../assets/menu-vertical.png);
+  background-size: 100%;
 }
-
