@@ -18,6 +18,7 @@ body {
 }
 
 .shelf {
+  border: 1px solid orange;
   width: 360px;
   height: auto;
 }
@@ -58,3 +59,61 @@ body {
   border-left: 8px solid transparent;
   border-right: 8px solid transparent;
 }
+
+.nav_bar {
+  border: 1px solid red;
+  width: auto;
+  height: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_bar__left {
+  border: 1px solid green;
+  display: flex;
+  align-items: center;
+}
+
+.hamburger_icon {
+  border: 1px solid blue;
+  width: 24px;
+  height: 24px;
+}
+
+.nav_bar__title {
+  border: 1px solid magenta;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 32px;
+}
+
+.nav_bar__right {
+  border: 1px solid darkorange;
+  display: flex;
+  align-items: center;
+}
+
+.heart_icon {
+  border: 1px solid firebrick;
+  width: 24px;
+  height: 24px;
+  margin-right: 24px;
+}
+
+.search_icon {
+  border: 1px solid firebrick;
+  width: 24px;
+  height: 24px;
+  margin-right: 24px;
+}
+
+.vertical_menu_icon {
+  border: 1px solid firebrick;
+  width: 24px;
+  height: 24px;
+}
+
