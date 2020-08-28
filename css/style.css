@@ -1,3 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+  --purple: #6200ee;
+  --dark_purple: #4c00d5;
+  --ligth_purple: #9e4bff;
+}
+
 body {
-  background-color: red;
+  border: 2px solid red;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  font-family: 'Roboto', sans-serif;
+}
+
+.shelf {
+  width: 360px;
+  height: auto;
+}
+
+.title_bar {
+  /* border: 2px solid chartreuse; */
+  width: 100%;
+  height: 32px;
+}
+
+.title_bar__icons {
+  /* border: 2px solid seagreen; */
+  width: auto;
+  height: 100%; 
+  background-color: var(--dark_purple);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.title_bar__icon {
+  /* border: 2px solid orchid; */
+  width: 16px;
+  height: 16px;
+  background-color: var(--ligth_purple);
+  margin-right: 10px;
+}
+
+.title_bar__icon--circle {
+  border-radius: 50%;
+}
+
+.title_bar__icon--triangle {
+  background-color: transparent;
+  width: 0;
+  height: 0;
+  border-top: 16px solid var(--ligth_purple);
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
 }
