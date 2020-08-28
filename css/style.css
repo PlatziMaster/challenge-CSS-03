@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+  --purple: #6200ee;
+  --dark_purple: #4c00d5;
+  --ligth_purple: #9e4bff;
+}
+
+body {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  font-family: 'Roboto', sans-serif;
+}
+
+.shelf {
+  width: 360px;
+  height: auto;
+}
+
+.title_bar {
+  width: 100%;
+  height: 32px;
+}
+
+.title_bar__icons {
+  width: auto;
+  height: 100%; 
+  background-color: var(--dark_purple);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.title_bar__icon {
+  width: 16px;
+  height: 16px;
+  background-color: var(--ligth_purple);
+  margin-right: 10px;
+}
+
+.title_bar__icon--circle {
+  border-radius: 50%;
+}
+
+.title_bar__icon--triangle {
+  background-color: transparent;
+  width: 0;
+  height: 0;
+  border-top: 16px solid var(--ligth_purple);
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+}
+
+.nav_bar {
+  background-color: var(--purple);
+  color: white;
+  width: auto;
+  height: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 20px 25px rgba(0, 0, 0, .2);
+}
+
+.nav_bar__left {
+  display: flex;
+  align-items: center;
+}
+
+.hamburger_icon {
+  width: 24px;
+  height: 24px;
+  background-image: url(../assets/menu.png);
+  background-size: 100%;
+}
+
+.nav_bar__title {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 32px;
+}
+
+.nav_bar__right {
+  display: flex;
+  align-items: center;
+}
+
+.heart_icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 24px;
+  background-image: url(../assets/heart.png);
+  background-size: 100%;
+}
+
+.search_icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 24px;
+  background-image: url(../assets/search.png);
+  background-size: 100%;
+}
+
+.vertical_menu_icon {
+  width: 24px;
+  height: 24px;
+  background-image: url(../assets/menu-vertical.png);
+  background-size: 100%;
+}
