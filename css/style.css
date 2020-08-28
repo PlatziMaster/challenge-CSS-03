@@ -66,6 +66,7 @@ body {
   padding-bottom: 16px;
   display: flex;
   justify-content: space-between;
+  box-shadow: 0 20px 25px rgba(0, 0, 0, .2);
 }
 
 .nav_bar__left {
